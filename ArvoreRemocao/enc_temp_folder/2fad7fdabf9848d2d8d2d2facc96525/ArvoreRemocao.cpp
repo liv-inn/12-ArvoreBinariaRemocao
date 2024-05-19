@@ -291,7 +291,7 @@ void removerElementoArvore(NO* no, int valor) {
 	atual->valor = sucessor->valor;
 
 	// se existir uma sub-arvore a direita do sucessor , entao
-	// ela deve ser ligada ao pai do sucessor 
+	// ela deve ser ligada ao pai do sucessor
 	if (sucessor->dir != NULL)
 	{
 		paiSucessor->esq = sucessor->dir;
